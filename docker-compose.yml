@@ -20,3 +20,10 @@ services:
       - "83:80"
     deploy:
       replicas: 3
+  
+  recharge:
+    image: sanjualuru/ptm:recharge
+    ports:
+      - "84:80"
+    deploy:
+      replicas: 3
